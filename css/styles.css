@@ -346,8 +346,11 @@ color: brown;
 .modal-input:focus~.modal-icon {
     fill: var(--accent-color);
 }
-
-.modal-input:focus {
+.modal-input:hover~.modal-icon {
+    fill: var(--accent-color);
+}
+.modal-input:focus,
+.modal-input:hover {
     border: 1px solid var(--accent-color);
     outline: 0;
 }
@@ -359,7 +362,6 @@ color: brown;
  }
 .modal-field{
     text-align: left;
-    /* margin-bottom: 12px; */
 }
 .input-wrap {
     position: relative;
@@ -403,7 +405,8 @@ input.modal-input{
     color: rgba(117, 117, 117, 0.5);
 }
 
-.form-comment:focus {
+.form-comment:focus,
+.form-comment:hover {
     border: 1px solid var(--accent-color);
     outline: 0;
 }
