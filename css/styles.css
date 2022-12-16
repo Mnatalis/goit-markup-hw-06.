@@ -36,7 +36,7 @@ h2,
 h3,
 h4,
 h5,
-h6, {
+h6 {
     padding: 0px;
     margin: 0px;
 } 
@@ -726,13 +726,17 @@ address {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+.item-contact{
+margin-bottom: 9px;
+}
 .item-address {
     color: rgba(255, 255, 255, 1);
-    margin-bottom: 9px;
+   
 }
 .item-mail {
     color: rgba(117, 117, 117, 1);
-    margin-bottom: 9px;
+    
 }
 .item-tel{
     color: rgba(117, 117, 117, 1); 
